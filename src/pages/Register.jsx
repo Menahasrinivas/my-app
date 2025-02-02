@@ -4,7 +4,7 @@ const Register = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [successMessage, setSuccessMessage] = useState(''); // Added successMessage state
+    const [successMessage, setSuccessMessage] = useState('');
 
     const handleRegister = (e) => {
         e.preventDefault();
@@ -14,41 +14,41 @@ const Register = () => {
             return;
         }
 
-        // Assuming registration is successful (you can add actual registration logic here)
-        setSuccessMessage('Registration successful!');  // Show success message
+        // Assuming registration is successful
+        setSuccessMessage('Registration successful!');
         setTimeout(() => setSuccessMessage(''), 3000);  // Hide after 3 seconds
     };
 
     return (
-        <div class="container">
-              <div class="register-box"></div>
-            <h2>Register</h2>
-            <form onSubmit={handleRegister}>
-                <input
-                    type="text"
-                    placeholder="Name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required
-                />
-                <input
-                    type="email"
-                    placeholder="Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                />
-                <input
-                    type="password"
-                    placeholder="Password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
-                />
-                <button type="submit">Register</button>
-            </form>
-            
-            {successMessage && <div className="success-message">{successMessage}</div>}  {/* Display success message */}
+        <div className="register-container">
+            <div className="register-box">
+                <h2>Register</h2>
+                <form onSubmit={handleRegister}>
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        required
+                    />
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        required
+                    />
+                    <button type="submit">Register</button>
+                </form>
+                {successMessage && <div className="success-message">{successMessage}</div>}
+            </div>
         </div>
     );
 };

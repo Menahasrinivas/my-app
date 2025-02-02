@@ -3,7 +3,7 @@ import { useState } from 'react';
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [successMessage, setSuccessMessage] = useState(''); // Added successMessage state
+    const [successMessage, setSuccessMessage] = useState('');
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -13,34 +13,34 @@ const Login = () => {
             return;
         }
 
-        // Assuming login is successful (you can add actual login logic here)
-        setSuccessMessage('Login successful!');  // Show success message
+        // Assuming login is successful
+        setSuccessMessage('Login successful!');
         setTimeout(() => setSuccessMessage(''), 3000);  // Hide after 3 seconds
     };
 
     return (
-        <div className="container">
-              <div class="login-box"></div>
-            <h2>Login</h2>
-            <form onSubmit={handleLogin}>
-                <input
-                    type="email"
-                    placeholder="Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                />
-                <input
-                    type="password"
-                    placeholder="Password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
-                />
-                <button type="submit">Login</button>
-            </form>
-            <a href="/register">Don't have an account? Register</a>
-            {successMessage && <div className="success-message">{successMessage}</div>}  {/* Display success message */}
+        <div className="login-container">
+            <div className="login-box">
+                <h2>Login</h2>
+                <form onSubmit={handleLogin}>
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        required
+                    />
+                    <button type="submit">Login</button>
+                </form>
+                {successMessage && <div className="success-message">{successMessage}</div>}
+            </div>
         </div>
     );
 };

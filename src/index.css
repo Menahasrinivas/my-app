@@ -148,26 +148,29 @@ body {
   background: #0056b3;
 }
 /* Login Form Styling */
+/* Login Container */
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #f4f7fc;
 }
 
+/* Login Box */
 .login-box {
   background: #fff;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
+  text-align: center;
 }
 
 .login-box h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .login-box input {
@@ -195,7 +198,6 @@ body {
 }
 
 .login-box a {
-  text-align: center;
   display: block;
   margin-top: 10px;
   color: #007bff;
@@ -205,14 +207,22 @@ body {
 .login-box a:hover {
   text-decoration: underline;
 }
-/* Registration Form Styling */
-.register-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
+
+
+
+
+/* Register Box */
 .register-box {
   background: #fff;
   padding: 40px;
@@ -220,12 +230,12 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
+  text-align: center;
 }
 
 .register-box h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .register-box input {
@@ -253,7 +263,6 @@ body {
 }
 
 .register-box a {
-  text-align: center;
   display: block;
   margin-top: 10px;
   color: #007bff;
@@ -262,6 +271,3516 @@ body {
 
 .register-box a:hover {
   text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+, 0, 0.1);
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+/* Register Box */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #218838;
+}
+
+.register-box a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 20px;
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 
