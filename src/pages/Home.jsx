@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div className="container">
+        <div class="container">
               <div class="home-box">
             <h1>Welcome to Our App</h1>
             <p>This is the home page. Please login or register to continue.</p>
