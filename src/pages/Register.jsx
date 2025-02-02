@@ -21,6 +21,7 @@ const Register = () => {
 
     return (
         <div className="container">
+              <div class="register-box"></div>
             <h2>Register</h2>
             <form onSubmit={handleRegister}>
                 <input
@@ -46,7 +47,7 @@ const Register = () => {
                 />
                 <button type="submit">Register</button>
             </form>
-
+            <a href="/login">Already have an account? Login</a>
             {successMessage && <div className="success-message">{successMessage}</div>}  {/* Display success message */}
         </div>
     );

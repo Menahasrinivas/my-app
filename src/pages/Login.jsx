@@ -20,6 +20,7 @@ const Login = () => {
 
     return (
         <div className="container">
+              <div class="login-box"></div>
             <h2>Login</h2>
             <form onSubmit={handleLogin}>
                 <input
@@ -38,7 +39,7 @@ const Login = () => {
                 />
                 <button type="submit">Login</button>
             </form>
-
+            <a href="/register">Don't have an account? Register</a>
             {successMessage && <div className="success-message">{successMessage}</div>}  {/* Display success message */}
         </div>
     );
